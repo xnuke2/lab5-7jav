@@ -1,0 +1,40 @@
+.head{
+    background-color: #738da3;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    width: 100%;
+}
+
+.buttonOnHead{
+    background-color: #337ab7;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+.block {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+.timeOnHead{
+    width: max-content;
+    background-color: #337ab7;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}

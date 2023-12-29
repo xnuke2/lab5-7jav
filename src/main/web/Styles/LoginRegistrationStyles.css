@@ -1,0 +1,38 @@
+.loginBlock{
+    float: left;
+    width: 40%;
+    padding: 4%;
+    background-color: #bfa1c5;
+    border: 1px solid #553957;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.registBlock{
+    float: left;
+    width: 40%;
+    padding: 4%;
+    background-color: #6e86b9;
+    border: 1px solid #553957;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.loginButton{
+    background-color: rgb(181 153 199 / 80%);
+    color: #333333;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+}
+.registButton{
+    background-color: rgb(135 149 193 / 80%);
+    color: #333333;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+}
