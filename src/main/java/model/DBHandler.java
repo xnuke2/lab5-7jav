@@ -125,7 +125,7 @@ public class DBHandler {
             prSt.setString(1, name);
             resSet = prSt.executeQuery();
             resSet.next();
-            if(resSet.getString(Const.USERS_ROLE).equals("moder")||resSet.getString(Const.USERS_ROLE).equals("admin")){
+            if(resSet.getString(Const.USERS_ROLE).equals("moderator")||resSet.getString(Const.USERS_ROLE).equals("admin")){
                 return true;
             }else {
                 return false;
